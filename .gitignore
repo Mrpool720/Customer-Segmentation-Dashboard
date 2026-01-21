@@ -1,0 +1,5 @@
+.myenv/                 # Virtual environment (10MB+)
+kmeans_model.pkl       # Trained model (sensitive)
+scaler.pkl            # Scaler (regeneratable)
+.ipynb_checkpoints/   # Jupyter temp files
+.streamlit/           # Streamlit cache
