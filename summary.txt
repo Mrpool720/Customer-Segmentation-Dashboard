@@ -1,0 +1,28 @@
+Project Summary
+Customer Segmentation using K-Means Clustering analyzes a marketing campaign dataset of 2216 customers to identify distinct behavioral segments for targeted marketing strategies.
+
+Key Achievements:
+
+Data Pipeline: Cleaned missing values, engineered 7 features (Age, Income, Total_Spending, purchase channels, digital engagement, recency)
+
+Optimal Clustering: Used Elbow Method (K=6) and Silhouette Analysis for model selection
+
+Business Insights: Identified 6 distinct segments with varying spending power, channel preferences, and engagement levels
+
+Production Ready: Saved scaler and KMeans models for Streamlit deployment
+
+Cluster Profiles (mean values):
+
+Cluster 0: Mid-age (61), moderate income/spending professionals
+
+Cluster 1: Young families (55), low spending, high recency
+
+Cluster 2: Seniors (70), high income/premium spenders, low web visits
+
+Cluster 3: Young low-spenders (51), budget-conscious
+
+Cluster 4: Prime customers (59), high web/store purchases
+
+Cluster 5: Young high-income (46), premium multichannel shoppers
+
+Business Impact: Enables personalized marketing, channel optimization, and lifetime value prediction.
